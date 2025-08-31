@@ -32,12 +32,12 @@ export default {
   pwa: {
     logs: true,
     // OneSignal is only available if you are using cloudflare workers
-    oneSignalEnabled: false, // To enable OneSignal, set this to true
+    oneSignalEnabled: true, // To enable OneSignal, set this to true
     oneSignalConfig: {
-      appId: '********-****-****-****-************', // Replace with your OneSignal App Id
+      appId: '139cabaa-f06b-4e12-a435-36db5a494667', // Replace with your OneSignal App Id
       allowLocalhostAsSecureOrigin: true,
     },
   },
   // Please replace with your blog url if you are using CDN (JsDelivr)
-  origin: 'https://hello-example.blogspot.com',
+  origin: 'https://www.c08plus.com',
 } satisfies Config;
